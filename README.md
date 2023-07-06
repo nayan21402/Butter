@@ -6,7 +6,7 @@
 ButterMeUp is a Database Management System (DBMS) that provides a web interface for managing and querying databases. It offers an intuitive user interface for creating tables, inserting data, executing queries, and performing various operations on the database.
 
 
-<h1> Relationship Schema </h1>
+## Relationship Schema 
 <ul>
   <li>Store(ST_ID, Sname, Address, Contact No., WarehouseID, D_ID, Price, Delivery Status)</li>
   <li>Product(PID, Pname, Price)</li>
@@ -25,6 +25,9 @@ ButterMeUp is a Database Management System (DBMS) that provides a web interface 
   <li>Customer Review(CID, Review)</li>
   <li>Delivers_to(D_ID, Price, Delivery_Status, WID, ST_ID)</li>
 </ul>
+
+## ER Diagram
+![](./images/ER.png)
 
 ## Features
 - User-friendly web interface for managing databases

@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Brant';
+  src: url('./font/Brant-Heavy.otf') format('truetype');
+}
+@font-face {
+  font-family: 'rasp';
+  src: url('./font/Raspberie\ Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'rasp_i';
+  src: url('./font/Raspberie\ Italic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'typo';
+  src: url('./font/Typo_Round_Regular_Demo.otf') format('truetype');
+}
+@font-face {
+  font-family: 'qs';
+  src: url('./font/Quicksand-VariableFont_wght.ttf') format('truetype');
+}

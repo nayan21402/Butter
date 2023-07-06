@@ -1,0 +1,95 @@
+body{
+    font-family: "qs" !important;
+    font-weight: 600 !important;
+}
+
+.container{
+    margin-top: -5%;
+    background-color:#fffccf;
+}
+:root{
+    --orange:rgb(235, 139, 37);
+    --kaream:#fffccf;
+}
+#logo{
+    font-family: 'Brant';
+    font-size: 5vw;
+}
+
+#r1{
+    padding-top:5% ;
+    position: absolute;
+    left: 0px;
+    height: 45vw;
+    width: 100%;
+    background-color: #fffccf;
+    overflow: hidden;
+
+}
+#c1{
+    color: rgb(235, 139, 37);
+    padding-left: 5%;
+    
+}
+#c1 p{
+    font-size: 1.75vw;
+}
+#c2{
+}
+#c2 img{
+    height: auto;
+    width: 60%;
+    margin-left: 25%;
+    margin-top: -15%;
+    animation-name: milk_float;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    transition: scale ease-in-out 0.25s;
+
+}
+@keyframes milk_float{
+    0%{
+        transform: translateY(0%);
+        rotate: 19deg;
+    }
+
+    50%{
+        transform: translateY(2.5%);
+        rotate: 17deg;
+    }
+    100%{
+        transform: translateY(0%);
+        rotate: 19deg;
+    }
+}
+#c2 img:hover{
+    scale: 1.05;
+}
+
+
+
+#r2{
+    background-color: #fffccf;
+    display: flex;
+}
+
+.btn-primary{
+  flex: 1;
+  margin: 2% !important;
+  background-color: var(--orange) !important;
+  color: var(--kaream) !important;
+  border-color: var(--kaream) !important;
+  height: 10% !important;
+  width: 10% !important;
+  font-size: 2vw !important;
+  font-weight: bold !important;
+  border-radius: 1vw !important;
+}
+.btn-primary:hover{
+    background-color:var(--kaream) !important;
+    color:var(--orange) !important;
+    border-color:var(--orange) !important;
+}
+
+
+

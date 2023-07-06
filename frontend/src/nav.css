@@ -1,0 +1,41 @@
+
+#navv{
+    position: relative;
+    display: flex;
+    margin-right: 0px;
+    left:100%;
+    transform: translateX(-170%);
+}
+.navbar{
+    background-color: rgb(235, 139, 37);
+    padding-left: 5%;
+    font-size: 2vw;
+}
+
+
+a.navbar-brand{
+    font-family: 'Brant';
+    color:#fffccf ;
+    font-size: 2vw;
+    margin-left: 2%;
+}
+
+a.navbar-brand:hover{
+    color:#fffccf !important ;
+    background-color: var(--orange) !important;
+}
+   
+a {
+    color: var(--kaream) !important;
+    text-decoration: none !important;
+    font-family: "qs";
+    font-weight: bold;
+}
+a:hover{
+    color: var(--orange) !important;
+    text-decoration: underline;
+    background-color:var(--kaream);
+    color:var(--orange) !important;
+    border-color:var(--kaream);
+    border-radius: 0.75vw;
+}

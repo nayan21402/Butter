@@ -1,6 +1,4 @@
-# ButterMeUp - Database Management System
-
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
+<h1>ButterMeUp - Database Management System</h1>
 
 ## Overview
 ButterMeUp is a cutting-edge dairy inventory management system designed to streamline and optimize the
@@ -17,6 +15,10 @@ reporting tools to help users make informed business decisions.
 - Database: MySQL
 - Frontend: HTML, CSS, JavaScript, React
 - Backend: React
+- Axios: A JavaScript library, simplifies data exchange between the frontend and backend. It provides an intuitive API for making asynchronous HTTP requests. 
+With Axios, data retrieval and UI updates become effortless.
+- Express: A web application framework for Node.js, powers the backend. It handles incoming HTTP requests and generates corresponding responses. Express simplifies route definition, middleware handling, and response management. It allows for easy creation of a RESTful API.
+- CORS (Cross-Origin Resource Sharing): A mechanism enabled by the CORS middleware package in Express.js, ensures secure cross-origin communication. By managing HTTP headers, CORS allows the frontend, running on a different origin, to make requests to the backend server. It facilitates seamless communication between frontend and backend.
 
 ## Installation Instructions
 1. Clone the repository: git clone https://github.com/yourusername/buttermeup.git

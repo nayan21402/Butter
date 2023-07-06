@@ -3,8 +3,32 @@
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ## Overview
-ButterMeUp is a Database Management System (DBMS) that provides a web interface for managing and querying databases. It offers an intuitive user interface for creating tables, inserting data, executing queries, and performing various operations on the database.
+ButterMeUp is a cutting-edge dairy inventory management system designed to streamline and optimize the
+operations of dairy farmers and other stakeholders. Our software provides a centralized and automated way to
+track inventory, including the type of product and quantity. It provides real-time data and
+reporting tools to help users make informed business decisions.
 
+## Features
+- User-friendly web interface for managing databases
+- Create and manage database tables
+- Insert, update, and delete data
+
+## Technologies Used
+- Database: MySQL
+- Frontend: HTML, CSS, JavaScript, React
+- Backend: React
+
+## Installation Instructions
+1. Clone the repository: git clone https://github.com/yourusername/buttermeup.git
+2. Navigate to the project directory: cd buttermeup
+3. Create a MySQL database named "ButterMeUp" by executing the SQL files located in the Database_creation folder.
+4. Set up the MySQL database connection parameters in your backend code. Open the backend file (backend/index.js) and locate the db configuration object. Update the host, user, password, and database fields to match your MySQL database configuration.
+5. Install the required dependencies: Run npm install to install the necessary Node.js dependencies for the project.
+
+## Usage Guide
+1. Run the index.js file in the backend folder to connect to the database, you should see "Connected to backend!" message in the command line upon successful connection.
+2. Navigate to the frontend directory and run npm start in the command line. Upon successful compilation the interface will open up in your default internet browser.
+3. You can interact with the frontend components and make HTTP requests to the backend API to perform various database operations.
 
 ## Relationship Schema 
 <ul>
@@ -29,21 +53,28 @@ ButterMeUp is a Database Management System (DBMS) that provides a web interface 
 ## ER Diagram
 ![](./images/ER.png)
 
-## Features
-- User-friendly web interface for managing databases
-- Create and manage database tables
-- Insert, update, and delete data
-
-## Technologies Used
-- Programming Language: Python
-- Web Framework: Django
-- Database: PostgreSQL
-- Frontend: HTML, CSS, JavaScript
-
 ## Screenshots
-![](./images/1.png)
-![](./images/2.png)
-![](./images/3.png)
-![](./images/4.png)
-![](./images/5.png)
+
+1. Warehouse Login:
+   - The "Warehouse Login" button redirects to a login page for warehouse managers.
+   - Warehouse managers can input their credentials to log in.
+
+2. Shop Login:
+   - The "Shop Login" button redirects users to a login page designed for employees.
+   ![Landing Page](./images/1.png)
+
+Warehouse Page:
+   - The Warehouse page features an input field where users can enter the warehouse ID to access relevant data.
+   - Users can add a product to a warehouse by entering the Product ID and the quantity of the product.
+   - Users can restock products by entering the Product ID, updated stock, and the Warehouse ID.
+   - Image: ![Warehouse Page](./images/5.png)
+   - ![Warehouse Page](./images/2.png)
+
+Shop Page:
+   - Shopkeepers who log in will be redirected to the Shop Page.
+   - They can click on relevant buttons to access information about their shop.
+   - They can restock products by entering the Product ID, quantity, and Store ID.
+   - Image: ![Shop Page](./images/4.png)
+   - ![Shop Page](./images/3.png)
+
 

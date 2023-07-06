@@ -17,7 +17,5 @@ ButterMeUp is a Database Management System (DBMS) that provides a web interface 
 - Frontend: HTML, CSS, JavaScript
 
 ## Screenshots
-![Dashboard](./screenshots/dashboard.png)
-![Table Editor](./screenshots/table_editor.png)
-![Query Editor](./screenshots/query_editor.png)
-![Schema Visualization](./screenshots/schema_visualization.png)
+./images/1.png
+

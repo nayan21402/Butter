@@ -1,4 +1,4 @@
-<h1>ButterMeUp - Database Management System</h1>
+<h1>ButterMeUp - Database Management System</h1> project by Nayan Dwivedi 2021402 and Siddhant Khokhar
 
 ## Overview
 ButterMeUp is a cutting-edge dairy inventory management system designed to streamline and optimize the
